@@ -9,7 +9,7 @@ function timer() {
 	setTimeout(function() {
         i = ++i;
         timerCount.innerText = i;
-		//console.log(++i);
+		// console.log(++i);
 		
 		timer(); 
 	}, 1000);
